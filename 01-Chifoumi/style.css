@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #d4ffc6;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+.partie {
+  background-color: #bcf4ff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+.center {
+  text-align: center;
+  width: 100%;
+}
