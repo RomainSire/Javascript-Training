@@ -1,4 +1,4 @@
-#CHIFOUMI GAME !
+# CHIFOUMI GAME !
 
 Easy rules :
 
