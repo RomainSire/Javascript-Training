@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid #666;
+  width: 30px;
+  height: 30px;
+  background-color: #94e8d777;
+}
+tr:first-child {
+  background-color: #94e8d7;
+}
+td:first-child {
+  background-color: #94e8d7;
+}
+table .color {
+  background-color: #ffcce6;
+}
