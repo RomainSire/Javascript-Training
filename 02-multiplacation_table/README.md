@@ -1,0 +1,3 @@
+# Multiplication table
+
+Javascript training..!
