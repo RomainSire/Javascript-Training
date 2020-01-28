@@ -1,0 +1,3 @@
+# Simple Clock
+
+Javascript training
