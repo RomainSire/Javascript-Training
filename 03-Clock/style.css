@@ -1,0 +1,19 @@
+@font-face {
+  font-family: digital;
+  src: url("font/DS-DIGI.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  text-align: center;
+}
+h1 {
+  font-family: digital, sans-serif;
+  background: #111;
+  border: 5px solid #07680d;
+  color: #07680d;
+  padding: 10px;
+  width: 150px;
+  margin: auto;
+}
