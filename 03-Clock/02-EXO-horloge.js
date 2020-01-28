@@ -46,7 +46,7 @@ window.setInterval(on1SecInterval, 1000);
 
 
 /***********************************************************************/
-/********** CORRECTION : en utilisant le DateTimeFormat !!!  ***********/
+/**********   Possibilité plus simple: le DateTimeFormat !   ***********/
 /***********************************************************************/
 /*
 function displayDate() {
