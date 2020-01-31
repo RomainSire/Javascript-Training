@@ -1,3 +1,3 @@
 # Multiplication table
 
-Javascript training..!
+Javascript training..
