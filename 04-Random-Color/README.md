@@ -1,2 +1,4 @@
 # Random Color
-Give you a random color (Hewadecimal, RGB, and color preview) for each page refresh.
+JavaScript training
+
+It gives you a random color (Hewadecimal format, RGB format, and color preview) at each page refresh.
