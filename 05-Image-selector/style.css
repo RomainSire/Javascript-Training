@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  transition: all .5s ease 0s;
+  text-align: center;
+}
+main p {
+  font-size: 1.5em;
+}
+.nb-photos-selected {
+  color: firebrick;
+  font-weight: bold;
+  font-style: italic;
+}
+#photo-list {
+  max-width: 800px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+#photo-list li {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+#photo-list li:hover {
+  background: silver;
+}
+.selected {
+  background: forestgreen !important;
+}
