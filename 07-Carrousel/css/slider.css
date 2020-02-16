@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: url('images/concrete_seamless.png');
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #4f5165;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/************************  HEADER  ************************/
+header{
+  padding: 3vh 0;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+  color: #547aa5;
+}
+nav {
+  width: 220px;
+  background: #6d9e9d;
+  margin: auto;
+  padding: 10px 10px;
+  border: 3px solid #3c5756;
+  border-radius: 20px;
+}
+/* ---  Bouton qui permet de déplier la barre d'outils  --- */
+nav #toolbar-toggle {
+  display: block;
+  font-size: 1.3em;
+}
+/* ---  La Barre d'outils  --- */
+.toolbar {
+  overflow: hidden;
+  transition: all 1s ease;
+}
+.hidden {
+  height: 0;
+  opacity: 0;
+}
+/* ---  boutons de la barre d'outil  --- */
+.toolbar button {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-color: #4444;
+  border: 2px solid #4447;
+}
+.toolbar button:hover {
+  background-color: #4442;
+}
+
+/************************  MAIN  ************************/
+main {
+  margin: 5vh auto 0 auto;
+  width: 90%;
+}
+#slider {
+  transform: rotate(-3deg);
+}
+#slider img {
+  max-width: 550px;
+  max-height: 50vh;
+  width: 100%;
+  height: auto;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 20px #000;
+}
+#slider figcaption {
+  margin-top: 15px;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #547aa5;
+}
+
+/************************  FOOTER  ************************/
+footer {
+  background: #ddd;
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer h4 {
+  margin: 0;
+}
+footer p {
+  margin: 0 20px;
+  display: inline-block;
+}
