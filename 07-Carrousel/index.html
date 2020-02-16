@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+
+    <!-- chargement de Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Chargement de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- chargement des feuilles de style -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <title>Carrousel</title>
+</head>
+<body>
+
+    <header>
+      <h1>Carrousel</h1>
+      <nav>
+        <a href="#" id="toolbar-toggle"><i class="fas fa-arrow-circle-right"></i> Barre d'outils</a>
+        <div class="toolbar hidden">
+          <!-- BOUTON PREVIOUS -->
+          <button type="button" id="slider-previous"><i class="fas fa-backward"></i></button>
+          <!-- BOUTON START -->
+          <button type="button" id="slider-play"><i class="fas fa-play"></i></button>
+          <!-- BOUTON NEXT -->
+          <button type="button" id="slider-next"><i class="fas fa-forward"></i></button>
+          <!-- BOUTON RANDOM -->
+          <button type="button" id="slider-random"><i class="fas fa-random"></i></button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <figure id="slider" class="slider">
+        <img src="#" alt="#">
+        <figcaption>#</figcaption>
+      </figure>
+    </main>
+    <footer>
+      <h4><i class="fas fa-info-circle"></i> Navigation au clavier :</h4>
+      <p>[Flèche Gauche] Photo précédente</p>
+      <p>[Flèche Droite] Photo Suivante</p>
+      <p>[Espace] Lancer/Arrêter le diaporama</p>
+      <p>[R] Afficher une photo au hazard</p>
+    </footer>
+  <!-- <div class="container"></div> -->
+  <script type="text/javascript" src="js/slider.js"></script>
+</body>
+</html>
