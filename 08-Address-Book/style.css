@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+  background: center / 300px repeat fixed url("svg/circles.svg"),
+              #f7e5b4;
+}
+a {
+  text-decoration: none;
+  color: #31b269;
+}
+a:hover {
+  text-decoration: underline;
+}
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+h1 {
+  color: #345c82;
+}
+label {
+  display: inline-block;
+  width : 100px;
+  text-align: right;
+  color: #31b269;
+}
+.hidden {
+  display: none;
+}
+.fa-trash {
+  color: #bc4242;
+}
+#contact-details {
+  width: 400px;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #31b26933;
+  position: relative;
+}
+#contact-details .name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#contact-details button {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+#address-book ul {
+  padding: 0;
+}
+#address-book li {
+  cursor: pointer;
+  color: #31b269;
+  /*width: 200px;*/
+  list-style: none;
+  padding: 5px 15px;
+  border-radius: 1em;
+}
+#address-book li:hover {
+  background: #31b26933;
+}

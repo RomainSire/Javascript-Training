@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>JS3.1 - Carnet d'adresse</title>
+  </head>
+  <body>
+    <main>
+      <h1><i class="fas fa-address-book"></i> Carnet d'adresses</h1>
+
+      <!-- Section : liste de contacts -->
+      <section id="address-book">
+        <ul>
+          <!-- liste de <li> rajoutés par Javascript -->
+        </ul>
+      </section>
+
+      <!-- Section : Afficher le détail d'un contact -->
+      <section id="contact-details" class="hidden">
+        <!-- La liste de <p></p> contenant les détails du contact sera rajoutée en JS -->
+      </section>
+
+      <!-- Section : Boutons ! -->
+      <section>
+        <button type="button" id="add-contact"><i class="fas fa-plus"></i></button>
+        <button type="button" id="clear-address-book"><i class="fas fa-trash"></i></button>
+      </section>
+
+      <!-- Section : ajouter un contact -->
+      <section id="contactForm" class="hidden">
+        <hr>
+        <form action="#" method="post">
+          <p>
+            <label for="title">Civilité</label>
+            <select name="title" id="title">
+              <option value="1">Madame</option>
+              <option value="2">Mademoiselle</option>
+              <option value="3">Monsieur</option>
+            </select>
+          </p>
+          <p>
+            <label for="lastName">Nom</label>
+            <input type="text" name="lastName" id="lastName">
+          </p>
+          <p>
+            <label for="firstName">Prénom</label>
+            <input type="text" name="firstName" id="firstName">
+          </p>
+          <p>
+            <label for="phone">Téléphone</label>
+            <input type="tel" name="phone" id="phone" maxlength="10" placeholder="0102030405">
+          </p>
+          <button type="submit">Enregistrer</button>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- Chargement de jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- Chargement du script perso -->
+    <script src="main.js"></script>
+  </body>
+</html>
