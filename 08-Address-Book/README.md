@@ -1,4 +1,4 @@
 # Address Book
 
-Use of the browser's localStorage to save the contact details as JSON.  
+The browser's localStorage is used to save the contacts details as JSON.  
 Javascript training
