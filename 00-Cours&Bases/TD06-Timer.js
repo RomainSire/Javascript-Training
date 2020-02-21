@@ -27,7 +27,7 @@
 
 
     /**
-     * CLEARTIMEOUT et CLEARINTERVAL : permet de clear un 
+     * CLEARTIMEOUT et CLEARINTERVAL : permet de clear un interval ou timeout
      */
     // on va arrêter tous les intervales après 10 secondes :
     window.setTimeout(function() {
