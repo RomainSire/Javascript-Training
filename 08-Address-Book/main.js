@@ -43,16 +43,6 @@ function displayContacts() {
     //$('#address-book ul').append('<li data-index="' + i + '">' + addressBook[i]['firstName'] + ' ' + addressBook[i]['lastName'] + '</li>');
   }
 
-  // CORRECTION POUR L'AFFICHAGE DE LA LISTE DES CONTACTS :
-  // // Afficher la liste de contacts sur la page
-  //   var addressBookList = $('<ul>'); // Créer un élément ul (jQuery s'occupe d'ouvrir et fermer les balises comme un grand !)
-  //
-  //   // Parcourir le tableau des contacts et générer pour chacun un élément li et ajouter ce li au ul
-  //   for (var i = 0; i < addressBook.length; i++) {
-  //     addressBookList.append('<li>' + addressBook[i].firstName + ' ' +  addressBook[i].lastName + '</li>');
-  //   }
-  //   // On vide le contenu de la section "#address-book" si on a avait déjà affiché la liste des contacts et on ajoute à l'intérieur la liste ul précédemment construite
-  //   $('#address-book').empty().append(addressBookList);
 }
 
 
@@ -139,10 +129,6 @@ function onContactClicked(event) {
   // Empeche de suivre le lien cliqué
   event.preventDefault();
   // On récupère l'index du contact à afficher.
-  // Plusieurs solutions techniques !
-  // 1/ Ajouter des attributs html DATA-* puis utiliser la focntion .data dans le JS
-  //
-  // 2/ Utiliser la fonction .index()
   var index = $(this).index('li');
 
   // au cas où, on masque les sections contactForm & contact-details
@@ -206,8 +192,8 @@ function onEditContactClicked(event) {
   // Empeche de suivre le lien cliqué
   event.preventDefault();
 
-  // NB : ici j'ai utiliser une variable globale pour faire ça, mais autant que possible, éviter de le faire !!!
-  // on aurait pu faire transiter l'info avec les attributs data-* : VOIR LA CORRECTION !
+  // NB : ici j'ai utilisé une variable globale pour faire ça, mais autant que possible, éviter de le faire !!!
+  // on aurait pu faire transiter l'info avec les attributs data-*
 
   // On complète le formulaire avec les bonnes infos du contact
   $('form input[name="lastName"]').val(addressBook[currentContactDisplayed]['lastName']);
