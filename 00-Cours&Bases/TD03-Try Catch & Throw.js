@@ -12,7 +12,7 @@ try {
     console.log("erreur : " + error + " - à l'endroit : " + error.stack)
 }
 // L'erreur est récupérée, et le code qui suit continue d'être exécuté
-console.log("PEAAAACE!")
+console.log("Salut")
 
 
 /**
