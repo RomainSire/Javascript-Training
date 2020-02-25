@@ -6,4 +6,4 @@
 4. Window
 5. Exercice
 6. Timer
-7. Document (selecteur, modifications)
+7. DOM
