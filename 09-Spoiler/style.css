@@ -1,0 +1,26 @@
+.spoiler-content,
+.hidden {
+  display: none;
+}
+.spoiler-content.visible {
+  display: inline;
+}
+
+.spoiler-btn {
+  padding: 5px 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+  background: #f5da4255;
+  color: #f57842;
+  font-style: italic;
+  font-weight: bold;
+}
+.spoiler-btn:hover {
+  box-shadow: 0 0 10px #f57842aa;
+  background: #f5da4288;
+}
+
+.spoiler-content {
+  color: #888;
+  font-style: italic;
+}
