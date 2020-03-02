@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: #eee;
+    color: #555;
+    font-family: sans-serif;
+}
+.topbar, .menu {
+    background: #fff;
+}
+
+.topbar {
+    padding: 15px 40px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid #888;
+    box-shadow: 0 5px 5px #aaa5;
+}
+.menu a {
+    padding: 10px 20px;
+    color: inherit;
+    text-decoration: none;
+    border-right: 1px solid #888;
+    transition: box-shadow 0.3s;
+}
+.menu a:hover {
+    box-shadow: inset 0 0 10px #acebf2;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    /*display: flex;
+    flex-flow: row nowrap;*/
+}
+.main {
+    float: left;
+    width: 68%;
+    padding: 10px 20px;
+    height: 4000px;
+}
+.sidebar {
+    float: right;
+    width: 25%;
+    box-shadow: 0 0 10px #aaa;
+}
+.bloc {
+    border: 1px solid #888;
+    padding: 10px;
+    background: #fff;
+}
