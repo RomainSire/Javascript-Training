@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #8A0808;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: gold;
+  text-shadow: 0 0 20px #333;
+  line-height: 2.5em;
+}
+#masterpiece {
+  display: block;
+  margin: 0 auto;
+  border: 10px ridge gold;
+  background: #fff;
+}
+button {
+  margin: 30px 20px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  background: #ffe36b;
+  box-shadow: 0 0 20px #333;
+  cursor: pointer;
+  color: #8A0808;
+}
+button:hover {
+  background: #fcd83f;
+}
