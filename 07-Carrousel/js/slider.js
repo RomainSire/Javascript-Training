@@ -8,7 +8,7 @@
 var photos = [
   {
     'src': 'images/1.jpg',
-    'alt': 'Photo de peinture rupestre',
+    'alt': 'Photo de grafiti',
     'figcaption': 'Photo 1 : Peinture rupestre'
   },
   {
@@ -18,8 +18,8 @@ var photos = [
   },
   {
     'src': 'images/3.jpg',
-    'alt': 'Photo d\'un batiment moche',
-    'figcaption': 'Photo 3 : Batiment moche'
+    'alt': 'Photo d\'un batiment',
+    'figcaption': 'Photo 3 : Batiment'
   },
   {
     'src': 'images/4.jpg',
@@ -28,8 +28,8 @@ var photos = [
   },
   {
     'src': 'images/5.jpg',
-    'alt': 'Photo de la ville du turfu',
-    'figcaption': 'Photo 5 : La ville du TurFu'
+    'alt': 'Photo d\'une ville',
+    'figcaption': 'Photo 5 : La ville'
   },
   {
     'src': 'images/6.jpg',
